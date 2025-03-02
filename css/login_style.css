@@ -1,0 +1,182 @@
+.logo-and-greeting-div{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.logo-welcome{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-text{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #419E81;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.log-in-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.form-inputs-div{
+    display: flex;
+    flex-direction: column;
+    gap: 100%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 32px;
+}
+
+.email-input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.password-input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.email-input-label, .password-input-label{
+    color: black;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.email-input, .password-input{
+    width: 90%;
+    background: white;
+    border: 1px solid #0E5A42;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-top: 6px;
+    padding-left: 14px;
+    color: black;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.register-div{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.forgot-password-text{
+    color: #0E5A42;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+.register-link{
+    color: #01CEB6;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.forgot-password-text:hover{
+    color: #0E5A42;
+    filter: brightness(90%);
+}
+
+.register-link:hover{
+    color: #01CEB6;
+    filter: brightness(90%);
+}
+
+.forgot-password-text:active{
+    filter: brightness(110%);
+}
+
+.register-link:active{
+    filter: brightness(110%);
+}
+
+
+.login-btn{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #01CEB6;
+    padding-left: 1px;
+    padding-right: 6px;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    transition: all 0.2s ease;
+}
+
+.left-button-decor-img{
+    margin-bottom: -2px;
+}
+
+.right-button-decor-img{
+    margin-bottom: -3px;
+}
+
+.log-in-btn-text{
+    position: relative;
+    margin: 0 auto;
+    margin-right: 7px;
+    display: flex;
+    text-align: center;
+}
+
+.login-btn:hover{
+    background: white;
+    color: #01CEB6;
+    border: 2px solid #01CEB6;
+}
+
+.login-btn:active{
+    filter: brightness(90%);
+}
+
+.img-bottom-decor{
+    position: fixed;
+    bottom: 0px;
+    background-repeat: repeat;
+}
