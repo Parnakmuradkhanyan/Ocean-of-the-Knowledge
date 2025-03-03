@@ -4,7 +4,7 @@
     .logo-and-greeting-div{
         position: relative;
         margin: 0 auto;
-        margin-top: 90px;
+        margin-top: 47px;
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -18,7 +18,7 @@
         justify-content: center;
     }
     
-    .welcome-text{
+    .register-text{
         position: relative;
         margin: 0 auto;
         display: flex;
@@ -36,13 +36,13 @@
         padding-right: 18px;
     }
     
-    .log-in-form{
+    .register-form{
         width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        margin-top: 28px;
+        margin-top: -10px;
     }
     
     .form-inputs-div{
@@ -52,24 +52,18 @@
         gap: 100%;
         margin: 0 auto;
         align-items: center;
-        gap: 32px;
+        gap: 10px;
     }
     
-    .email-input-div{
+    .name-input-div, .surname-input-div, .email-input-div, .password-input-div{
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 8px;
     }
     
-    .password-input-div{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
     
-    .email-input-label, .password-input-label{
+    .name-input-label, .surname-input-label, .email-input-label, .password-input-label{
         color: black;
         font-family: 'Baloo 2', sans-serif;
         font-size: 18px;
@@ -77,7 +71,7 @@
         margin-bottom: 0px;
     }
     
-    .email-input, .password-input{
+    .name-input, .surname-input, .email-input, .password-input{
         width: 100%;
         background: white;
         border: 1px solid #0E5A42;
@@ -93,10 +87,10 @@
     
     
     
-    .register-div{
+    .login-div{
         position: relative;
         margin: 0 auto;
-        gap: 45%;
+        gap: 35%;
         margin-top: 8px;
         width: 100%;
         display: flex;
@@ -105,7 +99,7 @@
         align-content: center;
     }
     
-    .forgot-password-text{
+    .already-have-an-account-text{
         color: #0E5A42;
         font-family: 'Baloo 2', sans-serif;
         font-size: 16px;
@@ -114,7 +108,7 @@
         transition: all 0.2s ease;
     }
     
-    .register-link{
+    .log-in-link{
         color: #01CEB6;
         font-family: 'Baloo 2', sans-serif;
         font-size: 18px;
@@ -124,29 +118,29 @@
         transition: all 0.2s ease;
     }
     
-    .forgot-password-text:hover{
+    .already-have-an-account-text:hover{
         color: #0E5A42;
         filter: brightness(90%);
     }
     
-    .register-link:hover{
+    .log-in-link:hover{
         color: #01CEB6;
         filter: brightness(90%);
     }
     
-    .forgot-password-text:active{
+    .already-have-an-account-text:active{
         filter: brightness(110%);
     }
     
-    .register-link:active{
+    .log-in-link:active{
         filter: brightness(110%);
     }
     
     
-    .login-btn{
+    .register-btn{
         position: relative;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 44px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -171,7 +165,7 @@
         margin-bottom: -3px;
     }
     
-    .log-in-btn-text{
+    .register-btn-text{
         position: relative;
         margin: 0 auto;
         margin-right: 7px;
@@ -179,13 +173,13 @@
         text-align: center;
     }
     
-    .login-btn:hover{
+    .register-btn:hover{
         background: white;
         color: #01CEB6;
         border: 2px solid #01CEB6;
     }
     
-    .login-btn:active{
+    .register-btn:active{
         filter: brightness(90%);
     }
     
@@ -203,21 +197,31 @@
 }
 
 @media (min-width: 576px){
+
+    .logo-and-greeting-div{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 222px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+    }
     
-    .log-in-form{
+    .register-form{
         width: 60%;
         position: relative;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        margin-top: 28px;
+        margin-top: -10px;
     }
 
         
-    .register-div{
+    .login-div{
         position: relative;
         margin: 0 auto;
-        gap: 52%;
+        gap: 32%;
         margin-top: 8px;
         width: 100%;
         display: flex;
@@ -232,28 +236,27 @@
     .logo-and-greeting-div{
         position: relative;
         margin: 0 auto;
-        margin-top: 162px;
+        margin-top: 122px;
         display: flex;
         flex-direction: column;
         gap: 5px;
         justify-content: center;
     }
     
-    
-    .log-in-form{
+    .register-form{
         width: 60%;
         position: relative;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        margin-top: 28px;
+        margin-top: -5px;
     }
 
         
-    .register-div{
+    .login-div{
         position: relative;
         margin: 0 auto;
-        gap: 52%;
+        gap: 44%;
         margin-top: 8px;
         width: 100%;
         display: flex;
@@ -268,27 +271,27 @@
     .logo-and-greeting-div{
         position: relative;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         gap: 5px;
         justify-content: center;
     }
 
-    .log-in-form{
+    .register-form{
         width: 40%;
         position: relative;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        margin-top: 28px;
+        margin-top: -8px;
     }
     
     
-    .register-div{
+    .login-div{
         position: relative;
         margin: 0 auto;
-        gap: 62%;
+        gap: 56%;
         margin-top: 8px;
         width: 100%;
         display: flex;
@@ -297,7 +300,20 @@
         align-content: center;
     }
 
-    .login-btn{
+    .img-bottom-decor{
+        width: 100%;
+        height: 179px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        background-image: url('../img/register-bottom-decor.svg');
+        background-size: contain;
+    }
+
+    .register-btn{
+        margin-top: 18px;
         margin-bottom: 210px;
     }
 
