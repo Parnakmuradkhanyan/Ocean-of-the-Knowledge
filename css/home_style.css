@@ -237,6 +237,7 @@
 
     .recently-viewed-course-container{
         width: 150px;
+        cursor: pointer;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -488,17 +489,20 @@
     .edit-my-plans-icon{
         position: relative;
         margin: 0 auto;
-        top: -50%;
-        width: 17px;
-        height: 17px;
+        width: 18px;
+        height: 18px;
         background-image: url('../icons/edit-my-plans-icon-not-active.svg');
+        background-size: contain;
     }
 
     .edit-my-plans-btn:hover{
         background: white;
-        border: 2px solid #01CEB6;
+    
         .edit-my-plans-icon{
+            position: relative;
+            margin: 0 auto;
             background-image: url('../icons/edit-my-plans-icon-active.svg');
+            background-size: contain;
         }
     }
 
@@ -583,6 +587,7 @@
     }
 
     .new-course-container{
+        cursor: pointer;
         width: 150px;
         position: relative;
         display: flex;
@@ -653,6 +658,7 @@
         display: flex;
         background-image: url('../img/register-bottom-decor.svg');
         background-size: contain;
+        z-index: 3;
     }
 
 
