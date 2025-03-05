@@ -108,9 +108,9 @@
 
         <div class="row">
             <div class="col-12">
-                <a href="#" class="delete-or-reset-course-btn-container">
+                <button onclick="showConfirmation()" class="delete-or-reset-course-btn-container">
                     <p class="delete-or-reset-course-text">Delete or Reset Course</p>
-                </a>
+                </button>
             </div>
         </div>
 
@@ -119,8 +119,25 @@
 
     <div class="img-bottom-decor"></div>
 
+    <div class="delete-or-reset-or-cancel-course-container">
+        <div class="decor-div"></div>
+        <p class="are-you-sure-about-that-question">Are you sure about that?</p>
+
+        <div class="reset-delete-course-container">
+            <a href="#" class="reset-course-btn">
+                <p class="reset-course-text">Reset Course</p>
+            </a>
+            <a href="#" class="delete-course-btn">
+                <p class="delete-course-text">Delete Course</p>
+            </a>
+        </div>
+
+        <button onclick="hideConfirmation()" class="cancel-btn">Cancel</button>
+
+    </div>
 
     <script src="./js/manifest.webmanifest"></script>
+    <script src="../js/course_view_chapters.js"></script>
 
 
 </body>

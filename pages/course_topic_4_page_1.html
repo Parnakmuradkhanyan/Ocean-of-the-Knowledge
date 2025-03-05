@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="../js/manifest.webmanifest">
+    <link rel="shortcut icon" href="../icons/website-icon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../icons/website-icon.svg">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../icons/167.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/course_topic_4_page_1_style.css">
+    <title>Ocean of the Knowledge - Course</title>
+</head>
+<body>
+    <div class="navbar-div">
+        <div class="navbar-items">
+            <a href="./home.html" class="logo-link-home"><img src="../img/menu-logo.svg" alt="Logo" class="logo-navbar"></a>
+            <a href="./menu.html" class="menu-button-link"><div class="menu-button-icon"></div></a>
+        </div>
+        <img src="../img/menu-bottom-decor.svg" alt="" class="decor-navbar">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="arrow-topic-courses-container">
+                    <a href="./course_view_topics.html" class="link-arrow-back-home"><img src="../icons/arrow-back-to-main-page.svg" alt="" class="icon-arrow-back-home"></a>
+                    <div class="topic-number-topic-name-container">
+                        <p class="topic-number">Topic 4.</p>
+                        <p class="topic-name">Going to the zoo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="exercise-container">
+                    <div class="exercise-number-and-task-container">
+                        <p class="exercise-number">Ex.1</p>
+                        <p class="task">Watch the inrtoductional video</p>
+                    </div>
+                    <iframe class="video-div" src="https://www.youtube.com/embed/y699qXKDVwE?si=fvGlB-BzsOTTuZpr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="exercise-container">
+                    <div class="exercise-number-and-task-container">
+                        <p class="exercise-number">Ex.2</p>
+                        <p class="task">Let's learn new words</p>
+                    </div>
+
+                    <div class="new-word-all-container">
+                        <div class="new-word-pic-container" id="word-pic-container">
+                            <button class="btn-previous-pic" onclick="previousWord()"><div class="previous-word-pic-btn-icon"></div></button>
+                            <button class="btn-next-pic" onclick="nextWord()"><div class="next-word-pic-btn-icon"></div></button>
+                        </div>
+                        <div class="new-word-and-speak-container">
+                            <div class="new-word-container">
+                                <p class="new-word-text" id="new-word-text">Zoo</p>
+                                <p class="translation-text" id="translation-text">- зоопарк</p>
+                            </div>
+                            <button class="say-the-word-btn" onclick="playAudio()"></button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <audio id="audio-player" src="../audio/zoo-how-to-say.mp3"></audio>
+
+    <div class="img-bottom-decor"></div>
+
+    <script src="../js/course_topic_4_page_1.js"></script>
+
+    <script src="../js/manifest.webmanifest"></script>
+    
+</body>
+</html>
